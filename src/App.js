@@ -22,7 +22,7 @@ class App extends Component {
   handleChange = (e) => {
     this.setState({ searchField: e.target.value });
   };
-
+  asd;
   render() {
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter((monster) =>
